@@ -1,25 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./src/index.html",
+    "./index.html",
     "./src/**/*.{js,vue}",
   ],
   theme: {
     extend: {
       colors: {
-        'bluish-gray': '#89b4f8',
-        'yellowish-gray': '#ada89c',
+        'dark-grey': '#202123',
+        'darker-grey': '#121212',
       },
-      spacing: {
-        '2vw': '2vw',
-        '5vw': '5vw',
-        '6vw': '6vw',
-      },
-      maxWidth: {
-        '300': '300px',
-        '400': '400px',
-        '1200': '1200px',
-      }
     },
   },
   plugins: [],

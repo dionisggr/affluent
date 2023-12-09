@@ -1,70 +1,86 @@
-# PromptWiz
+# Affluent
 
-## Overview
+## Disclaimer
+**The source code for Affluent is not included in this repository due to its upcoming commercial release. For code review requests from potential employers, recruiters, or collaboration inquiries, please [email me](mailto:dionisggr@gmail.com?subject=Request%20for%20Affluent%20Code%20Walkthrough).**
 
-PromptWiz is a robust application that enhances the user's prompts to guide ChatGPT for providing more accurate and contextually apt responses. The application is built on Vue 3, taking advantage of modern JavaScript features and design patterns.
+## What Is It?
+Affluent is a cutting-edge, AI-powered personal finance health application that helps users gain a comprehensive understanding of their financial situation. It enables users to input and track various financial data, including assets, liabilities, income, and expenses. The application leverages AI to provide predictive modeling and personalized advice, helping users make informed financial decisions.
 
-PromptWiz's key features are built using various popular libraries such as axios, lodash, vue-router, vuex and more. It leverages Vite as the build tool, which is faster and leaner than traditional web tooling.
-
-## Key Features
-- **Vue 3** - a progressive JavaScript framework for building user interfaces.
-- **Vite** - an opinionated web dev build tool that serves your code via native ES Module imports during development and bundles it with Rollup for production.
-- **axios** - Promise-based HTTP client for the browser and Node.js.
-- **lodash** - A modern JavaScript utility library delivering modularity, performance, and extras.
-- **vue-router** - The official router for Vue.js.
-- **vuex** - State management pattern + library for Vue.js applications.
-- **js-sha256** - A simple SHA-256 hash function for JavaScript supports UTF-8 encoding.
-- **vue-google-signin-button-directive** - A simple Vue.js directive for Google Sign-In Button.
-- **vue3-google-login** - A Google oAUth Sign-in / Log-in Component for Vue 3.
-- **vue-clipboard2** - A simple vue2 binding to clipboard.js.
-- **clipboard-copy** - Tiny, promise-based, 500 bytes, universal copy-to-clipboard for the web.
-- **Tailwind CSS** - A utility-first CSS framework for rapidly building custom user interfaces.
+## Why Build It?
+Affluent was created to fill a gap in the market for a comprehensive tool that addresses all aspects of personal (and commercial) finance. It offers users the ability to experience financial security by providing tools for planning, forecasting, and managing their finances effectively. In a world where financial literacy and planning are key, Affluent aims to empower individuals by offering a clear overview of their financial status and predictive advice for future financial decisions.
 
 ## Table of Contents
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Getting Started](#getting-started)
+4. [Usage](#usage)
+5. [Screenshots](#screenshots)
+6. [Challenges and Learnings](#challenges-and-learnings)
+7. [Future Enhancements](#future-enhancements)
+8. [Contact](#contact)
 
-- [Getting Started](#getting-started)
-- [Building the App](#building-the-app)
-- [Running the App](#running-the-app)
-- [Contributing](#contributing)
-- [License](#license)
+## Features
+- AI-powered predictive modeling for personalized financial advice.
+- Comprehensive tracking of net worth through assets and liabilities.
+- Visual representations of financial data through interactive charts and graphs.
+- Scenario planning for future financial decisions and purchases.
+- User-friendly interface with intuitive navigation and data input.
+
+## Technologies Used
+Affluent is built with a modern tech stack including: **Vue.js**, **Express**, **TailwindCSS**, and several JavaScript libraries like **axios**, **lodash**, and **chart.js**.
 
 ## Getting Started
+To run Affluent locally:
 
-1. Clone the project:
-    ```
-    git clone https://github.com/yourusername/promptwiz.git
-
-    cd promptwiz
-    ```
-
-2. Install the dependencies:
-    ```
-    npm ci
-    ```
-
-## Building the App
-To build the app, run the following command:
 ```bash
-npm run build
+# Clone the repository
+git clone https://github.com/dionisggr/affluent.git
+cd affluent
+
+# Install dependencies
+npm install
+
+# Start the local server
+npm start
 ```
 
-This will produce a `dist/` folder which contains the built app.
+## Usage
+### Financial Data Entry
+Enter your financial data, including assets, liabilities, income, and expenses, to establish a comprehensive profile.
 
-## Running the App
-1. To run the app in development mode, use the command:
-    ```
-    npm run dev
-    ```
+### Financial Health Overview
+View a dashboard summarizing your current financial health, including net worth and cash flow analysis.
 
-2. To preview the built app, use the command:
-    ```
-    npm run preview
-    ```
+### AI-Powered Insights
+Receive personalized financial insights and advice based on your data, assisting in making informed financial decisions.
 
-## Contributing
+### Tracking and Goal Setting
+Utilize tracking features to monitor progress towards financial goals and adjust strategies based on AI recommendations.
 
-All kinds of contributions (enhancements, new features, documentation & code improvements, issues & bugs reporting) are welcome. Please open an issue before submitting a pull request.
+## Screenshots
+![Screenshot 1](./public/home.png)
+![Screenshot 2](./public/home-2.png)
+![Screenshot 3](./public/past-history.png)
+![Screenshot 6](./public/predictive-modeler.png)
+![Screenshot 4](./public/financial-profile.png)
+![Screenshot 5](./public/financial-profile-2.png)
+![Screenshot 7](./public/tracker.png)
+![Screenshot 8](./public/my-account.png)
+![Screenshot 9](./public/getting-started.png)
 
-## License
+## Challenges and Learnings
+Developing the AI model that accurately predicts and provides personalized financial advice was a significant challenge. Integrating various financial data inputs to offer a cohesive user experience was also a learning curve.
 
-[MIT](https://opensource.org/licenses/MIT)
+## Future Enhancements
+- Enhanced AI capabilities for deeper financial insights.
+- Integration with banking and financial services for real-time data updates.
+- Mobile application development for iOS and Android platforms.
+- Expanded features for commercial financial planning and management.
+
+## Contact
+For more information or potential collaborations:
+
+- [Portfolio](https://www.dioveloper.com/)
+- [LinkedIn](https://www.linkedin.com/in/dionis-gonzalez/)
+- [Email](dionisggr@gmail.com)
+```
